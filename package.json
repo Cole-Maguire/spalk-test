@@ -1,0 +1,19 @@
+{
+  "name": "spalk-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+	"start": "ts-node index.ts"
+  },
+  "author": "hello@colemaguire.me",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "devDependencies": {
+    "vitest": "^3.1.1"
+  }
+}
