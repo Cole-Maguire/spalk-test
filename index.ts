@@ -1,9 +1,7 @@
-import { pid } from "process";
 import { parseBuffer } from "./packets";
 
 let data: Buffer<ArrayBufferLike> = Buffer.from([]);
 process.stdin.on("data", (chunk) => {
-  // this will absolutely churn memory, but todo if theres a way to know the full size of the file before reaching the end
   data = Buffer.concat([data, chunk]);
 });
 
