@@ -15,7 +15,7 @@ The parser is the default npm start script, and can be run by passing stdin to i
 cat file.ts | npm start
 ```
 
-mpeg4-parser is provided as an alias for `npm start`
+`mpeg4-parser` is provided as an alias for `npm start`
 
 ## Testing
 A test suite with that verifies the files provided at https://github.com/SpalkLtd/tech-test, as well as other edge cases is also provided, and can be run using
